@@ -139,6 +139,14 @@ const Checkout = () => {
       return;
     }
 
+    if (!result.data.order) {
+      alert("Order creation failed");
+      return;
+    }
+    if (!result.data.order) {
+      alert("Order creation failed");
+      return;
+    }
     const { amount, id: order_id, currency } = result.data.order;
 
     const options = {
