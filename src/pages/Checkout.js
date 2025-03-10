@@ -138,11 +138,8 @@ const Checkout = () => {
       alert("Something Went Wrong");
       return;
     }
+    console.log(result);
 
-    if (!result.data.order) {
-      alert("Order creation failed");
-      return;
-    }
     if (!result.data.order) {
       alert("Order creation failed");
       return;
