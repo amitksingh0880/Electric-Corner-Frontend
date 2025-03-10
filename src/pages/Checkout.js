@@ -129,7 +129,7 @@ const Checkout = () => {
       return;
     }
     const result = await axios.post(
-      `${base_url}api/user/order/checkout`,
+      `${base_url}user/order/checkout`,
       { amount: totalAmount + 100 },
       config
     );
@@ -162,7 +162,7 @@ const Checkout = () => {
         };
 
         const result = await axios.post(
-          `${base_url}api/user/order/paymentVerification`,
+          `${base_url}user/order/paymentVerification`,
           data,
           config
         );
