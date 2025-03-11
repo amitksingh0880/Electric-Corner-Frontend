@@ -16,7 +16,7 @@ import React from "react";
 const Container = ({ class1, children }) => {
   return (
     <section className={class1}>
-      <div className="max-w-screen-2xl mx-auto px-4">{children}</div>
+      <div className="container-xxl">{children}</div>
     </section>
   );
 };

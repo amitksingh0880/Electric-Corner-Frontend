@@ -46,21 +46,21 @@ const Home = () => {
   };
   return (
     <>
-      <Container class1="home-wrapper-1 py-5">
-        <div className="row">
-          <div className="col-6">
-            <div className="main-banner position-relative ">
+      <Container class1="mt-2 flex flex-row">
+        <div className="flex kistify ">
+          <div className="">
+            <div className="main-banner position-relative mr-20/>">
               <img
                 src="images/main-banner-1.jpg"
-                className="img-fluid rounded-3"
+                className="img-fluid rounded-3 mr-12"
                 alt="main banner"
               />
-              <div className="main-banner-content position-absolute">
+              {/* <div className="main-banner-content position-absolute">
                 <h4>SUPERCHARGED FOR PROS.</h4>
                 <h5>iPad S13+ Pro.</h5>
                 <p>From Rs. 81,900.00 </p>
                 <Link className="button">BUY NOW</Link>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-6">

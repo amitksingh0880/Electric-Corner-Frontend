@@ -31,11 +31,11 @@ const BreadCrumb = ({ title }) => {
   return (
     <div className="bg-gray-100 py-4">
       <div className="max-w-7xl mx-auto px-4">
-        <p className="text-center text-lg text-gray-700">
-          <Link to="/" className="text-blue-600 hover:text-blue-800 font-medium">
+        <p className="text-center text-2xl text-gray-700">
+          {/* <Link to="/" className="text-blue-600 hover:text-blue-800 font-medium">
             Home
           </Link>
-          <span className="mx-2 text-gray-500">/</span>
+          <span className="mx-2 text-gray-500">/</span> */}
           <span className="font-semibold text-gray-800">{title}</span>
         </p>
       </div>
